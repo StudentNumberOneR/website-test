@@ -1,14 +1,12 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f0f0f;
+    color: #e0e0e0;
 }
 
 header {
-    background-color: #222;
-    color: white;
+    background-color: #1a1a1a;
     padding: 1rem;
 }
 
@@ -21,7 +19,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #9ecbff;
     text-decoration: none;
     margin-right: 1rem;
 }
@@ -31,15 +29,47 @@ nav a:hover {
 }
 
 main {
-    padding: 2rem;
-    background-color: white;
-    max-width: 800px;
+    max-width: 900px;
     margin: 2rem auto;
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.code-block {
+    position: relative;
+    background-color: #161616;
+    border: 1px solid #333;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+.code-block button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.code-block button:hover {
+    background-color: #555;
+}
+
+pre {
+    margin: 0;
+    padding: 1rem;
+    overflow-x: auto;
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #222;
-    color: white;
+    background-color: #1a1a1a;
+    color: #aaa;
 }
